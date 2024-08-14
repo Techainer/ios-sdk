@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "LivenessUtility"
+  spec.name         = "LivenessUtilityPV"
   spec.version      = "1.0.0"
   spec.summary      = "A short description of LivenessUtility."
   spec.homepage     = "https://github.com/Techainer/ios-sdk"
