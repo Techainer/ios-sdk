@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
 
   spec.source            = { :http => 'https://github.com/Techainer/ios-sdk/releases/download/1.0.1/LivenessUtilityPV.zip' }
-  spec.vendored_frameworks = 'LivenessUtility/LivenessUtilityPV.xcframework'
+  spec.vendored_frameworks = 'LivenessUtilityPV/LivenessUtilityPV.xcframework'
   spec.swift_version = "5.0"
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
