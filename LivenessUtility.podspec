@@ -16,16 +16,16 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LivenessUtilityPV"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A short description of LivenessUtility."
   spec.homepage     = "https://github.com/Techainer/ios-sdk"
   spec.author           = { 'My Name' => 'myemail@example.com' }
   spec.license      = "MIT"
   
   spec.platform = :ios
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "12.0"
 
-  spec.source            = { :http => 'https://github.com/Techainer/ios-sdk/releases/download/1.0.1/LivenessUtilityPV.zip' }
+  spec.source            = { :http => 'https://github.com/Techainer/ios-sdk/releases/download/1.0.2/LivenessUtilityPV.zip' }
   spec.vendored_frameworks = 'LivenessUtilityPV/LivenessUtilityPV.xcframework'
   spec.swift_version = "5.0"
   spec.pod_target_xcconfig = {
