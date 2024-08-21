@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LivenessUtilityPV"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "A short description of LivenessUtility."
   spec.homepage     = "https://github.com/Techainer/ios-sdk"
   spec.author           = { 'My Name' => 'myemail@example.com' }
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "12.0"
 
-  spec.source            = { :http => 'https://github.com/Techainer/ios-sdk/releases/download/1.0.3/LivenessUtilityPV.zip' }
+  spec.source            = { :http => 'https://github.com/Techainer/ios-sdk/releases/download/1.0.4/LivenessUtilityPV.zip' }
   spec.vendored_frameworks = 'LivenessUtilityPV/LivenessUtilityPV.xcframework'
   spec.swift_version = "5.0"
   spec.pod_target_xcconfig = {
